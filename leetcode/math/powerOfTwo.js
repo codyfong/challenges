@@ -15,6 +15,5 @@
 
 function IsPowerOfTwo(n){
     return((Math.log(n)/Math.log(2))%1 === 0)
-
 }
 console.log(IsPowerOfTwo(218))
